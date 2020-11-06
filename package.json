@@ -1,0 +1,21 @@
+{
+  "name": "ibm-functions",
+  "version": "1.0.0",
+  "description": "IBM Function In/Out Node",
+  "dependencies": {
+    "node-red": "^1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./node_modules/node-red/red.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "ibm-functions-in": "function-in.js",
+      "ibm-functions-out": "function-out.js"
+    }
+  }
+}
